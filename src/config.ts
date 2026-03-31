@@ -8,9 +8,9 @@ import type {
 import { LinkPreset } from "./types/config";
 
 export const siteConfig: SiteConfig = {
-	title: "Fuwari",
-	subtitle: "Demo Site",
-	lang: "en", // Language code, e.g. 'en', 'zh_CN', 'ja', etc.
+	title: "enamHT.site",
+	subtitle: "enamHT.site",
+	lang: "zh_CN", // Language code, e.g. 'en', 'zh_CN', 'ja', etc.
 	themeColor: {
 		hue: 250, // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
 		fixed: false, // Hide the theme color picker for visitors
@@ -46,7 +46,7 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.About,
 		{
 			name: "GitHub",
-			url: "https://github.com/saicaca/fuwari", // Internal links should not include the base path, as it is automatically added
+			url: "https://github.com/Cypressca/enamsite", // Internal links should not include the base path, as it is automatically added
 			external: true, // Show an external link icon and will open in a new tab
 		},
 	],
@@ -62,7 +62,7 @@ export const profileConfig: ProfileConfig = {
 			icon: "fa6-brands:twitter", // Visit https://icones.js.org/ for icon codes
 			// You will need to install the corresponding icon set if it's not already included
 			// `pnpm add @iconify-json/<icon-set-name>`
-			url: "https://twitter.com",
+			url: "https://x.com/enamineHT",
 		},
 		{
 			name: "Steam",
@@ -72,7 +72,7 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "GitHub",
 			icon: "fa6-brands:github",
-			url: "https://github.com/saicaca/fuwari",
+			url: "https://github.com/Cypressca",
 		},
 	],
 };
