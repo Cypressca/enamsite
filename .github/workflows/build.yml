@@ -17,7 +17,7 @@ jobs:
   check:
     strategy:
       matrix:
-        node: [ 22 ] # Only check on Node.js 22 for now
+        node: [ 20 ] # Only check on Node.js 20 for now
     runs-on: ubuntu-latest
     name: Astro Check for Node.js ${{ matrix.node }}
     steps:
