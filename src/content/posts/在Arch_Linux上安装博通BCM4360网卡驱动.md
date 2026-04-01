@@ -15,7 +15,7 @@ lang: ''
 
 ## 准备
 
-> [!Note]
+> [!NOTE]
 >
 > 相比于最小化安装的Debian 13，Arch Linux的好处就是在live环境可以联网，并且往系统里面直接安装软件。所以，如果是Debian的最小化安装，有可能需要另一台能联网的电脑，并用它来下载非自由固件，然后用U盘拷过去安装。
 
@@ -35,7 +35,7 @@ pacstrap -S /mnt infuse
 
 由于新系统中没有`infuse`包，除非在live环境下完成无线网的配置，否则为了保证在新系统中能够正常联网，有必要提前安装该依赖。
 
-> [!Note]
+> [!NOTE]
 >
 > 没有用过Android设备进行有线网连接，但是根据[Broadcom 无线 - ArchWiki ](https://wiki.archlinux.org.cn/title/Broadcom_wireless#broadcom-wl)的说法，Android设备有线网共享似乎不需要额外的依赖。
 
@@ -103,7 +103,7 @@ sudo pacman -S dkms linux-headers broadcom-wl-dkms
 sudo modprobe -r b43 b43legacy ssb bcma #可以查看所有网卡驱动后卸载
 ```
 
-> [!Note]
+> [!NOTE]
 >
 > 如果觉得可能是冲突的问题，还可以将其他驱动屏蔽。编辑配置文件：
 >
