@@ -308,7 +308,7 @@ function initCustomScrollbar() {
 
 	const katexElements = document.querySelectorAll('.katex-display') as NodeListOf<HTMLElement>;
 
-	const katexObserverOptions = {
+	const katexObserverOptions: IntersectionObserverInit = {
 		root: null,
 		rootMargin: '100px',
 		threshold: 0.1
