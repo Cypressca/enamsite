@@ -66,7 +66,7 @@ export const profileConfig: ProfileConfig = {
 		},
 		{
 			name: "Email",
-			icon: "ic:baseline-email",
+			icon: "fa6-regular:envelope",
 			url: "mailto:enamht@icloud.com",
 		},
 		{
