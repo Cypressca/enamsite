@@ -8,8 +8,8 @@ import type {
 import { LinkPreset } from "./types/config";
 
 export const siteConfig: SiteConfig = {
-	title: "enamHT.site",
-	subtitle: "enamHT.site",
+	title: "ARSLINE",
+	subtitle: "Like Birds_",
 	lang: "zh_CN", // Language code, e.g. 'en', 'zh_CN', 'ja', etc.
 	themeColor: {
 		hue: 250, // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
@@ -46,7 +46,7 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.About,
 		{
 			name: "GitHub",
-			url: "https://github.com/Cypressca/enamsite", // Internal links should not include the base path, as it is automatically added
+			url: "https://github.com/ArsLinea/enamsite", // Internal links should not include the base path, as it is automatically added
 			external: true, // Show an external link icon and will open in a new tab
 		},
 	],
@@ -55,24 +55,24 @@ export const navBarConfig: NavBarConfig = {
 export const profileConfig: ProfileConfig = {
 	avatar: "https://img.enamht.site/posts/1775021610/saki.jpg", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 	name: "enamineHT",
-	bio: "我也不知道该写什么总之这里先占个位置。",
+	bio: "逆さまのガール、おとなのせかい。",
 	links: [
 		{
 			name: "Twitter",
-			icon: "fa6-brands:twitter", // Visit https://icones.js.org/ for icon codes
+			icon: "fa6-brands:x-twitter", // Visit https://icones.js.org/ for icon codes
 			// You will need to install the corresponding icon set if it's not already included
 			// `pnpm add @iconify-json/<icon-set-name>`
 			url: "https://x.com/enamineHT",
 		},
 		{
-			name: "Steam",
-			icon: "fa6-brands:steam",
-			url: "https://store.steampowered.com",
+			name: "Email",
+			icon: "ic:baseline-email",
+			url: "mailto:enamht@icloud.com",
 		},
 		{
 			name: "GitHub",
 			icon: "fa6-brands:github",
-			url: "https://github.com/Cypressca",
+			url: "https://github.com/ArsLinea",
 		},
 	],
 };
